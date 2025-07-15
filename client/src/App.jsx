@@ -9,7 +9,7 @@ import {
   Paper,
 } from '@mui/material';
 
-const socket = io('http://localhost:5000'); // Your backend URL
+const socket = io('https://yappie-1.onrender.com'); 
 
 const App = () => {
   const [message, setMessage] = useState('');
